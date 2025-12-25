@@ -131,7 +131,7 @@ header nav ul li.btn a:hover, .email .block button:hover {
 }
 
 
-.hero--info .btn {
+.hero--info .btn, .hero-about .info button {
     background: #FA8305;
     color: #fff;
     border-radius: 50px;
@@ -142,7 +142,7 @@ header nav ul li.btn a:hover, .email .block button:hover {
 }
 
 
-.hero--info .btn:hover {
+.hero--info .btn:hover, .hero-about .info button:hover {
     cursor: pointer;
     transform: scale(1.1);
 }
@@ -427,5 +427,160 @@ footer hr {
 footer > p {
     text-align: center;
 }
+
+
+
+
+/* Page about us */
+
+.hero-about {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 150px;
+}
+
+.hero-about .info {
+    width: 30%;
+    padding: 50px 0px;
+}
+
+.hero-about .info h1 {
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 180%;
+}
+
+.hero-about .info p {
+    margin-bottom: 50px;
+}
+
+.hero-about .info p:first-of-type {
+    font-size: 12px;
+}
+
+
+.hero-about .info button {
+    margin-top: 40px;
+}
+
+.hero-about div div .choice-btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #333333;
+    color: #fff;
+    position: relative;
+    bottom: 57px;
+    width: 20%;
+    height: 50px;
+    border: 0;
+}
+
+.hero-about div div .choice-btn img {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+
+.work {
+    padding: 80px 0px;
+}
+
+.work h2 {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.work .blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.work .blocks .block {
+    background: #1C140F;
+    width: 25%;
+    border-radius: 10px;
+    padding: 50px 35px;
+
+}
+
+
+.work .blocks .block h3{
+    font-size: 20px;
+    margin: 20px 0px;
+}
+
+.work .blocks .block .badge {
+    border-radius: 7px;
+    padding: 10px 20px;
+}
+
+.work .blocks .block .badge.purple {
+    background: rgba(176, 0, 220, 0.11);
+}
+
+.work .blocks .block .badge.brown {
+    background: rgba(220, 66, 0, 0.11);
+}
+
+.work .blocks .block .badge.green {
+    background: rgba(0, 220, 141, 0.11);
+}
+
+/* Information about-us */
+
+.information-us {
+    background: #1C140F;
+    height: 600px;
+    margin-top: 100px;
+}
+
+.information-us .block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.information-us .block img {
+    margin-top: 7.25%;
+}
+
+.information-us .block .block-information {
+    width: 48%;
+}
+
+.information-us .block .block-information h4 {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+.information-us .block .block-information h3 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 160%;
+    margin-bottom: 30px;
+}
+
+.information-us .block .block-information p {
+    line-height: 200%;
+}
+
+
+
+.wrapper .work .blocks .box {
+    background: #1C140F;
+    width: 20%;
+    border-radius: 10px;
+    padding: 50px 35px;
+    text-align: center;
+}
+
+
+
 
 
