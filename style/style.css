@@ -581,6 +581,113 @@ footer > p {
 }
 
 
+/* Portfolio */
 
 
+.service-information {
+    margin-bottom: 100px;
+}
 
+
+.service-information .info {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.service-information .works {
+    background: #1C140F;
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+    padding: 50px 90px;
+    margin-top: 70px;
+}
+
+
+.service-information .works .blocks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    border-right: 2px solid #EEEFF2;
+}
+
+.service-information .works .blocks img {
+    margin-right: 5%;
+    height: 60px;
+}
+
+
+.service-information .works .blocks:last-of-type {
+    border-right: 0;
+}
+
+.games-information .blocks {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 100px;
+}
+
+.games-information .blocks .block {
+    width: 45%;
+}
+.games-information .blocks .block p {
+    width: 70%;
+    font-size: 14px;
+    line-height: 187%;
+}
+
+.games-information .blocks .block h3 {
+    width: 40%;
+    font-size: 30px;
+    line-height: 180%;
+}
+
+
+.games-information .blocks .block .box {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.games-information .blocks .block .box img {
+    margin-right: 1%;
+}
+
+
+.games-information .game-blocks {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.games-information .game-blocks .block {
+    width: 33%;
+}
+
+.games-information .game-blocks .block h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+.games-information .game-blocks .block p {
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.games-information .game-blocks .block button {
+    background: #DC7000;
+    color: #fff;
+    border-radius: 5px;
+    border: 0;
+    padding: 15px 25px;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+
+.games-information .game-blocks .block button:hover {
+    background-color: #dc2c00;
+}
