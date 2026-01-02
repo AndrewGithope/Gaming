@@ -659,7 +659,7 @@ footer > p {
 .games-information .game-blocks {
     margin-top: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -691,3 +691,113 @@ footer > p {
 .games-information .game-blocks .block button:hover {
     background-color: #dc2c00;
 }
+
+.reviews {
+    background: #1C140F;
+    margin-top: 150px;
+    padding: 100px 40px 60px 90px;
+}
+
+.reviews .blocks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.reviews .blocks .box {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.reviews .blocks .block {
+    width: 30%;
+    border: 2px solid #DDDDDD;
+    border-radius: 8px;
+    padding: 20px 20px;
+}
+
+.reviews .blocks .block p:last-child {
+    width: 85%;
+    margin-top: 8%;
+}
+
+
+.reviews .blocks .box .text {
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 7%;
+}
+
+.reviews .blocks .box .text p {
+    color: #4F5665;
+    margin-top: 0;
+}
+
+.reviews .blocks .active {
+    border: 2px solid #DC7000;
+    border-radius: 8px;
+}
+
+
+.reviews .blocks-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+} 
+
+.reviews .blocks-nav .container-img img {
+    margin-right: 10px;
+}
+
+.reviews .blocks-nav .container-img img:last-of-type {
+    margin-right: 0px;
+}
+
+.reviews .blocks-nav .container-button {
+    display: flex;
+    align-items: center;
+}
+
+.reviews .blocks-nav .container-button button {
+    background: none;
+    border: 0;
+    cursor: pointer;
+    width: 60px;
+    margin-right: 15px;
+}
+
+.reviews .blocks-nav .container-button button:last-of-type {
+    margin-right: 0px;
+}
+
+
+.reviews .blocks-nav .container-button button img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
