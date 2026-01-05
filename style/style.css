@@ -780,20 +780,165 @@ footer > p {
 }
 
 
+/* News */
+
+.wrapper .container .input-search {
+    margin-top: 70px;
+}
+
+.wrapper .container .input-search input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+    width: 360px;
+    height: 50px;
+    padding-left: 42px;
+    padding-right: 5px;
+    background: #1C140F;
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+}
+
+.wrapper .container .input-search input::placeholder {
+    color: #fff;
+}
+
+.wrapper .container .input-search {
+    position: relative;
+}
+
+.wrapper .container .input-search img {
+    position: absolute;
+    top: 35%;
+    left: 39%;
+    cursor: pointer;
+}
 
 
+.block-game-information {
+    display: flex;
+    justify-content: space-around;
+} 
+
+.block-game-information .block-games {
+    width: 30%;
+}
+
+.block-game-information .block-games .block-game {
+    margin-bottom: 15%;
+}
+
+.block-game-information .block-games .block-game:last-child {
+    margin-top: 15%;
+    margin-bottom: 0px;
+}
+
+.block-game-information .block-games .block-game img {
+    margin-bottom: 2%;
+}
+
+.block-game-information .block-games .block-game .button-game {
+    margin-bottom: 3%;
+}
+
+.block-game-information .block-games .block-game .button-game button {
+    background: #2351F5;
+    color: #fff;
+    font-size: 16px;
+    border: 0px;
+    width: 25%;
+    height: 40px;
+    margin-right: 2%;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+
+.block-game-information .block-games .block-game .button-game button:hover {
+    background: #1538b6;
+}
 
 
+.block-game-information .block-games .block-game .game-text h2 {
+    margin-bottom: 5%;
+}
+
+.block-game-information .block-question {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.block-game-information .block-question .box {
+    display: flex;
+    align-items: center;
+}
+
+.block-game-information .block-question .box img {
+    margin-right: 5%;
+}
+
+.block-game-information .block-question .box button {
+    background: #FF8484;
+    color: #fff;
+    font-size: 16px;
+    border: 0px;
+    width: 40%;
+    height: 40px;
+    margin-right: 2%;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+
+.block-game-information .block-question .box .blue {
+    background: #2351F5;
+    transition: all 500ms ease;
+}
+
+.block-game-information .block-question .box .blue:hover {
+    background: #1734a0;
+}
 
 
+.block-game-information .block-question .box .orange {
+    background: #FF7C32;
+    transition: all 500ms ease;
+}
+
+.block-game-information .block-question .box .orange:hover {
+    background: #bb571d;
+}
+
+.block-game-information .block-question .box .green {
+    background: #23A54F;
+    transition: all 500ms ease;
+}
+
+.block-game-information .block-question .box .green:hover {
+    background: #157535;
+}
+
+.block-game-information .block-question .box .violet {
+    background: #9921C3;
+    transition: all 500ms ease;
+}
+
+.block-game-information .block-question .box .violet:hover {
+    background: #670c88;
+}
 
 
+.block-game-information .block-question .box button:hover {
+    background: #b15353;
+}
 
-
-
-
-
-
+.block-game-information .block-question .box h3 {
+    margin-top: 5%;
+    font-size: 23px;
+    font-weight: 500;
+}
 
 
 
