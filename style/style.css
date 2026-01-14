@@ -941,6 +941,180 @@ footer > p {
 }
 
 
+/* Contact-us */
+
+
+.wrapper .service-information img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.wrapper .service-information .blocks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.wrapper .service-information .blocks img{
+    display: inline-block;
+}
+
+.wrapper .service-information .blocks .block:first-child {
+    display: grid;
+    grid-template-columns: 1;
+    grid-row: 2;
+    align-items: center;
+    row-gap: 20px;
+    width: 25%;
+}
+
+.wrapper .service-information .blocks .block {
+    display: flex; 
+    align-items: center;
+    width: 30%;
+    height: 114px;
+    border-right: 1px solid #FFFFFF;
+}
+
+.wrapper .service-information .blocks .block:last-child {
+    border-right: 0;
+}
+
+.wrapper .block-contact {
+    background-image: url(../img/background-lines.svg);
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.wrapper .block-contact h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+.wrapper .block-input {
+    width: 1000px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.wrapper .block-input #FirstName {
+    width: 400px;
+    height: 55px;
+    margin-bottom: 90px;
+    padding: 10px 0px 10px 10px;
+    background: #5f5f5f;
+    border: 0.5px solid #fff;
+    border-radius: 10px;
+    outline: 0;
+    color: #fff;
+}
+
+.wrapper .block-input #FirstName::placeholder {
+    color: #fff;
+}
+
+
+.wrapper .block-input #LastName {
+    width: 400px;
+    height: 55px;
+    margin-bottom: 90px;
+    padding: 10px 0px 10px 10px;
+    background: #5f5f5f;
+    border: 0.5px solid #fff;
+    border-radius: 10px;
+    outline: 0;
+    color: #fff;
+}
+
+.wrapper .block-input #LastName::placeholder {
+    color: #fff;
+}
+
+
+
+.wrapper .block-input #EmailAddress {
+    width: 900px;
+    height: 55px;
+    margin-bottom: 90px;
+    padding: 10px 0px 10px 10px;
+    background: #5f5f5f;
+    border: 0.5px solid #fff;
+    border-radius: 10px;
+    outline: 0;
+    color: #fff;
+}
+
+.wrapper .block-input #EmailAddress::placeholder {
+    color: #fff;
+}
+
+
+.wrapper .block-input #Message {
+    width: 900px;
+    height: 400px;
+    margin-bottom: 90px;
+    padding: 10px 0px 0px 10px;
+    background: #5f5f5f;
+    border: 0.5px solid #fff;
+    border-radius: 10px;
+    outline: 0;
+    color: #fff;
+}
+
+.wrapper .block-input #Message::placeholder {
+    color: #fff;
+}
+
+.wrapper .block-input .input-button {
+    font-size: 16px;
+    padding: 20px 40px;
+    margin-left: auto;
+    border-radius: 10px;
+    border: 0;
+    background: #DC7000;
+    color: #fff;
+    transition: all 500ms ease;
+}
+
+.wrapper .block-input .input-button:hover {
+    background: #b65e00;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
